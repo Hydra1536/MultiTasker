@@ -2,7 +2,7 @@
 
 A focused workspace combining a **date-based Kanban task board** and a **polygon image-annotation workspace**, built with Next.js + TypeScript on the frontend and Django + Django REST Framework on the backend.
 
-> *Sign in to continue to the date-based board and annotation tools.*
+> *Sign up to continue to the date-based board and annotation tools.*
 
 ---
 
