@@ -5,8 +5,11 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-change-me-please-change-to-a-32-plus-char-secret-key-for-dev"
 DEBUG = True
-ALLOWED_HOSTS: list[str] = []
-
+ALLOWED_HOSTS = [
+    'localhost', 
+    '127.0.0.1', 
+    'multitasker-backend-i6n7.onrender.com'
+]
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
