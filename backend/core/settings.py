@@ -8,7 +8,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost', 
     '127.0.0.1', 
-    'multitasker-backend-i6n7.onrender.com'
+    'multitasker-backend-i6n7.onrender.com',
+    "https://multitasker1.onrender.com", # <-- Add your new frontend URL here!
 ]
 INSTALLED_APPS = [
     "django.contrib.admin",
